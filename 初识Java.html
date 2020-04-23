@@ -6,21 +6,21 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="https://www.famkkll.cn">
-  <title>如何阅读一本书（1） | 老匡的博客</title>
+  <title>初识Java的类 | 老匡的博客</title>
   <meta name="generator" content="hexo-theme-yilia-plus">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
-  <meta name="description" content="第一篇  阅读的层次">
+  <meta name="description" content="Java程序中最基本的组成单位是类">
 <meta property="og:type" content="article">
-<meta property="og:title" content="如何阅读一本书（1）">
-<meta property="og:url" content="https://www.famkkll.cn/2018/04/19/howtoreadabook/index.html">
+<meta property="og:title" content="初识Java的类">
+<meta property="og:url" content="https://www.famkkll.cn/%E5%88%9D%E8%AF%86Java.html">
 <meta property="og:site_name" content="老匡的博客">
-<meta property="og:description" content="第一篇  阅读的层次">
+<meta property="og:description" content="Java程序中最基本的组成单位是类">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2018-04-19T07:30:21.000Z">
-<meta property="article:modified_time" content="2020-04-21T07:25:17.808Z">
+<meta property="article:published_time" content="2018-03-19T07:30:21.000Z">
+<meta property="article:modified_time" content="2020-04-20T07:14:24.780Z">
 <meta property="article:author" content="老匡">
-<meta property="article:tag" content="随笔">
+<meta property="article:tag" content="Java">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="老匡的博客" type="application/atom+xml">
@@ -40,7 +40,30 @@
   </style>
   
 
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-164333986-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+
+
   
+<script>
+var _hmt = _hmt || [];
+(function() {
+	var hm = document.createElement("script");
+	hm.src = "https://hm.baidu.com/hm.js?14e6a691746080f70fe32aca09170fef";
+	var s = document.getElementsByTagName("script")[0]; 
+	s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
 
   
     
@@ -50,7 +73,7 @@
 
 
   
-
+<script data-ad-client="ca-pub-2509442944959541" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
 
 <body>
@@ -228,14 +251,14 @@
               class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-howtoreadabook" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-初识Java" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
   
   
     <h1 class="article-title" itemprop="name">
-      如何阅读一本书（1）
+      初识Java的类
     </h1>
   
 
@@ -247,8 +270,8 @@
               <i class="icon-smile icon"></i> 阅读数：<span id="busuanzi_value_page_pv"></span>次
         </span>
 
-<a href="/2018/04/19/howtoreadabook/" class="archive-article-date">
-        <time datetime="2018-04-19T07:30:21.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-04-19</time>
+<a href="/%E5%88%9D%E8%AF%86Java.html" class="archive-article-date">
+        <time datetime="2018-03-19T07:30:21.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-03-19</time>
 </a>
 
   
@@ -261,7 +284,7 @@
       <!-- 百度字体平台:http://fontstore.baidu.com/static/editor/index.html -->
       <i class="icon-statistics"></i>
       <span class="post-meta-item-text"> 字数统计:</span>
-      <span class="post-count">448字</span>
+      <span class="post-count">150字</span>
     </span>
   </span>
 
@@ -281,58 +304,13 @@
   
   <div class="article-entry" itemprop="articleBody">
     
-    <h3 id="第一篇-阅读的层次"><a href="#第一篇-阅读的层次" class="headerlink" title="第一篇  阅读的层次"></a>第一篇  阅读的层次</h3><a id="more"></a>
+    <h3 id="Java程序中最基本的组成单位是类"><a href="#Java程序中最基本的组成单位是类" class="headerlink" title="Java程序中最基本的组成单位是类"></a>Java程序中最基本的组成单位是类</h3><a id="more"></a>
 
-<h5 id="第一章-阅读的活力与艺术"><a href="#第一章-阅读的活力与艺术" class="headerlink" title="第一章  阅读的活力与艺术"></a>第一章  阅读的活力与艺术</h5><ul>
-<li>重点一  主动的阅读：<strong>阅读越主动，效果越好</strong></li>
-<li>重点二  投手与捕手理论：读书的过程就像是棒球比赛中投球手与外野手一样，需要坐着与读者之间密切的配合才能更好的在书籍中进行沟通；成功的沟通都发生于作者想要传递给读者的信息，刚好被读者掌握住了。</li>
-<li>重点三  阅读的目标<ul>
-<li>为获得咨询而读</li>
-<li>为求得理解而读</li>
-</ul>
-</li>
-<li>重点四  阅读的艺术<strong>定义</strong>：这是一个凭借着头脑运作，除了玩味读物中的一些字句外，不假借任何外助，以一己之力来提升自我的过程。</li>
-<li>重点五  阅读就是学习<ul>
-<li>指导型学习<ul>
-<li>吸收咨询是要被启发的前提动作</li>
-</ul>
-</li>
-<li>自我发现型的学习<ul>
-<li>主动思考、主动理解、阅读与自身理解力不对等的高杆作品</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>重点六  懂得用书（缺席的老师）来教导我们。</li>
-</ul>
-<h5 id="第二章-阅读的层次"><a href="#第二章-阅读的层次" class="headerlink" title="第二章  阅读的层次"></a>第二章  阅读的层次</h5><ul>
-<li>重点一    四个层次<ul>
-<li>基础阅读</li>
-<li>检视阅读</li>
-<li>分析阅读</li>
-<li>主题阅读</li>
-</ul>
-</li>
-<li>重点二    基础阅读<ul>
-<li>基础阅读需要克服的困难时语言困难</li>
-</ul>
-</li>
-<li>重点三    检视阅读<ul>
-<li>检视阅读是<strong>系统化略读</strong>的一门艺术</li>
-<li>检视阅读主要需要弄明白<strong>这本书在讲什么</strong>；<strong>这是哪一类书</strong>；<strong>这本书的结构是什么</strong></li>
-</ul>
-</li>
-<li>重点四    分析阅读<ul>
-<li>一直要读到这本书成为自己为止</li>
-<li>只有少数的书是需要咀嚼与消化的</li>
-<li>擅长于寻求理解</li>
-</ul>
-</li>
-<li>重点五    主题阅读<ul>
-<li>最有收获的一种阅读活动</li>
-</ul>
-</li>
-</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">类的定义格式：</span><br><span class="line">	<span class="keyword">public</span> <span class="class"><span class="keyword">class</span> 类名</span>&#123;</span><br><span class="line">		</span><br><span class="line">	&#125;</span><br><span class="line">这是我定义的HelloWorld类</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">HelloWrld</span></span>&#123;</span><br><span class="line">这是main方法</span><br><span class="line">		main方法是程序的入口，代码的执行是从main方法开始的</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span> <span class="params">(String[] args)</span></span>&#123;</span><br><span class="line">		这是输出语句，<span class="string">""</span>里面的内容是可以改变的</span><br><span class="line">		System.out.println(<span class="string">"HelloWorld"</span>);</span><br><span class="line">	&#125;	</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="关键字：被Java语言赋予了特定含义的单词"><a href="#关键字：被Java语言赋予了特定含义的单词" class="headerlink" title="关键字：被Java语言赋予了特定含义的单词"></a>关键字：被Java语言赋予了特定含义的单词</h3><p>关键字的特点：<br>关键字的字母全部小写<br>常用的代码编辑器，针对关键字有特殊的颜色标记</p>
 
     
 
@@ -379,7 +357,7 @@
         </li>
         <li>
           <strong>本文链接：</strong>
-          <a href="https:/www.famkkll.cn/2018/04/19/howtoreadabook/" title="如何阅读一本书（1）" target="_blank">https:/www.famkkll.cn/2018/04/19/howtoreadabook/</a>
+          <a href="https:/www.famkkll.cn/初识Java.html" title="初识Java的类" target="_blank">https:/www.famkkll.cn/初识Java.html</a>
         </li>
         
         <li>
@@ -401,7 +379,7 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">随笔</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">Java</a>
         		</li>
       		
 		</ul>
@@ -413,7 +391,7 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="/categories/阅读技巧//" class="article-tag-list-link color5">阅读技巧</a>
+        			<a href="/categories/Java技术笔记//" class="article-tag-list-link color4">Java技术笔记</a>
         		</li>
       		
 		</ul>
@@ -468,7 +446,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-     <!-- <img src="//pan.baidu.com/share/qrcode?url=https://www.famkkll.cn/2018/04/19/howtoreadabook/" alt="微信分享二维码"> -->
+     <!-- <img src="//pan.baidu.com/share/qrcode?url=https://www.famkkll.cn/%E5%88%9D%E8%AF%86Java.html" alt="微信分享二维码"> -->
     </div>
 </div>
 
@@ -483,18 +461,18 @@
 
 <nav id="article-nav">
   
-    <a href="/2018/04/21/howtoreadabook(2)/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/%E5%88%9D%E8%AF%86git.html" id="article-nav-newer" class="article-nav-link-wrap">
       <i class="icon-circle-left"></i>
       <div class="article-nav-title">
         
-          怎样阅读一本书（2）
+          初识git
         
       </div>
     </a>
   
   
-    <a href="/2018/03/21/%E5%88%9D%E8%AF%86git/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">初识git</div>
+    <a href="/%E5%88%9D%E8%AF%86Markdown.html" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">初识Markdown</div>
       <i class="icon-circle-right"></i>
     </a>
   
@@ -521,7 +499,7 @@
                 </span>
                 <span class="tooltip-content">
                     <div class="toc-article">
-                    <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#第一篇-阅读的层次"><span class="toc-number">1.</span> <span class="toc-text">第一篇  阅读的层次</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#第一章-阅读的活力与艺术"><span class="toc-number">1.0.1.</span> <span class="toc-text">第一章  阅读的活力与艺术</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#第二章-阅读的层次"><span class="toc-number">1.0.2.</span> <span class="toc-text">第二章  阅读的层次</span></a></li></ol></li></ol></li></ol>
+                    <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#Java程序中最基本的组成单位是类"><span class="toc-number">1.</span> <span class="toc-text">Java程序中最基本的组成单位是类</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#关键字：被Java语言赋予了特定含义的单词"><span class="toc-number">2.</span> <span class="toc-text">关键字：被Java语言赋予了特定含义的单词</span></a></li></ol>
                     </div>
                 </span>
             </div>
@@ -534,7 +512,7 @@
 
 
 
-<div id="SOHUCS" sid="howtoreadabook" ></div> 
+<div id="SOHUCS" sid="初识Java" ></div> 
 <script charset="utf-8" type="text/javascript" src="//changyan.sohu.com/upload/changyan.js" ></script>
 <script type="text/javascript">
     window.changyan.api.config({
@@ -687,11 +665,11 @@
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">markdown</a>
+                <a href="javascript:void(0)" class="js-tag color4">git</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">git</a>
+                <a href="javascript:void(0)" class="js-tag color4">markdown</a>
               </li>
             
             <div class="clearfix"></div>
