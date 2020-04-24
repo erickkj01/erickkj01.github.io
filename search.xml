@@ -274,6 +274,24 @@
       </tags>
   </entry>
   <entry>
+    <title>初识Java的类</title>
+    <url>/3bb54abf.html</url>
+    <content><![CDATA[<h3 id="Java程序中最基本的组成单位是类"><a href="#Java程序中最基本的组成单位是类" class="headerlink" title="Java程序中最基本的组成单位是类"></a>Java程序中最基本的组成单位是类</h3><a id="more"></a>
+
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">类的定义格式：</span><br><span class="line">	<span class="keyword">public</span> <span class="class"><span class="keyword">class</span> 类名</span>&#123;</span><br><span class="line">		</span><br><span class="line">	&#125;</span><br><span class="line">这是我定义的HelloWorld类</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">HelloWrld</span></span>&#123;</span><br><span class="line">这是main方法</span><br><span class="line">		main方法是程序的入口，代码的执行是从main方法开始的</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span> <span class="params">(String[] args)</span></span>&#123;</span><br><span class="line">		这是输出语句，<span class="string">""</span>里面的内容是可以改变的</span><br><span class="line">		System.out.println(<span class="string">"HelloWorld"</span>);</span><br><span class="line">	&#125;	</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="关键字：被Java语言赋予了特定含义的单词"><a href="#关键字：被Java语言赋予了特定含义的单词" class="headerlink" title="关键字：被Java语言赋予了特定含义的单词"></a>关键字：被Java语言赋予了特定含义的单词</h3><p>关键字的特点：<br>关键字的字母全部小写<br>常用的代码编辑器，针对关键字有特殊的颜色标记</p>
+]]></content>
+      <categories>
+        <category>Java技术笔记</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>初识Markdown</title>
     <url>/88af5d4e.html</url>
     <content><![CDATA[<h1 id="Markdown语法概要"><a href="#Markdown语法概要" class="headerlink" title="Markdown语法概要"></a>Markdown语法概要</h1><hr>
@@ -384,24 +402,6 @@
       </categories>
       <tags>
         <tag>markdown</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>初识Java的类</title>
-    <url>/3bb54abf.html</url>
-    <content><![CDATA[<h3 id="Java程序中最基本的组成单位是类"><a href="#Java程序中最基本的组成单位是类" class="headerlink" title="Java程序中最基本的组成单位是类"></a>Java程序中最基本的组成单位是类</h3><a id="more"></a>
-
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">类的定义格式：</span><br><span class="line">	<span class="keyword">public</span> <span class="class"><span class="keyword">class</span> 类名</span>&#123;</span><br><span class="line">		</span><br><span class="line">	&#125;</span><br><span class="line">这是我定义的HelloWorld类</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">HelloWrld</span></span>&#123;</span><br><span class="line">这是main方法</span><br><span class="line">		main方法是程序的入口，代码的执行是从main方法开始的</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span> <span class="params">(String[] args)</span></span>&#123;</span><br><span class="line">		这是输出语句，<span class="string">""</span>里面的内容是可以改变的</span><br><span class="line">		System.out.println(<span class="string">"HelloWorld"</span>);</span><br><span class="line">	&#125;	</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="关键字：被Java语言赋予了特定含义的单词"><a href="#关键字：被Java语言赋予了特定含义的单词" class="headerlink" title="关键字：被Java语言赋予了特定含义的单词"></a>关键字：被Java语言赋予了特定含义的单词</h3><p>关键字的特点：<br>关键字的字母全部小写<br>常用的代码编辑器，针对关键字有特殊的颜色标记</p>
-]]></content>
-      <categories>
-        <category>Java技术笔记</category>
-      </categories>
-      <tags>
-        <tag>Java</tag>
       </tags>
   </entry>
 </search>
