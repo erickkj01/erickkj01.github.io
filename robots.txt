@@ -1,4 +1,6 @@
+# hexo robots.txt
 User-agent: *
-Disallow: null
 Allow: /
-Sitemap: /sitemap.xml,/baidusitemap.xml
+Disallow: null
+Sitemap: https://www.famkkll.cn/sitemap.xml
+Sitemap: https://www.famkkll.cn/baidusitemap.xml
