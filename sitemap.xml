@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.famkkll.cn/about/index.html</loc>
+    
+    <lastmod>2020-05-20T12:54:43.469Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.famkkll.cn/collections/mine.json</loc>
     
     <lastmod>2020-05-20T03:49:06.578Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>https://www.famkkll.cn/collections/index.html</loc>
     
     <lastmod>2020-05-20T03:31:30.117Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.famkkll.cn/collections/design.json</loc>
-    
-    <lastmod>2020-05-19T15:27:35.000Z</lastmod>
     
   </url>
   
@@ -44,6 +44,13 @@
   </url>
   
   <url>
+    <loc>https://www.famkkll.cn/collections/design.json</loc>
+    
+    <lastmod>2020-05-19T15:27:35.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.famkkll.cn/collections/school.json</loc>
     
     <lastmod>2020-05-19T15:27:35.000Z</lastmod>
@@ -58,6 +65,13 @@
   </url>
   
   <url>
+    <loc>https://www.famkkll.cn/collections/sitetool.json</loc>
+    
+    <lastmod>2020-05-19T15:27:35.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.famkkll.cn/collections/skill.json</loc>
     
     <lastmod>2020-05-19T15:27:35.000Z</lastmod>
@@ -66,13 +80,6 @@
   
   <url>
     <loc>https://www.famkkll.cn/collections/tools.json</loc>
-    
-    <lastmod>2020-05-19T15:27:35.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.famkkll.cn/collections/sitetool.json</loc>
     
     <lastmod>2020-05-19T15:27:35.000Z</lastmod>
     
@@ -145,13 +152,6 @@
     <loc>https://www.famkkll.cn/f6f499b8.html</loc>
     
     <lastmod>2020-05-06T06:06:59.720Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.famkkll.cn/about/index.html</loc>
-    
-    <lastmod>2020-05-05T03:24:21.197Z</lastmod>
     
   </url>
   
