@@ -157,17 +157,11 @@
     <link href="https://www.famkkll.cn/3ca0be77.html"/>
     <id>https://www.famkkll.cn/3ca0be77.html</id>
     <published>2018-03-22T07:37:33.000Z</published>
-    <updated>2020-05-21T13:22:26.757Z</updated>
+    <updated>2020-05-21T13:27:20.403Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;!-- build time:Thu May 21 2020 21:22:44 GMT+0800 (GMT+08:00) --&gt;&lt;h3 id=&quot;数据类型转换&quot;&gt;&lt;a href=&quot;#数据类型转换&quot; class=&quot;headerlink&quot;
-        
-      
+      类型转换
     
     </summary>
     
@@ -186,11 +180,11 @@
     <link href="https://www.famkkll.cn/841cd912.html"/>
     <id>https://www.famkkll.cn/841cd912.html</id>
     <published>2018-03-21T04:41:45.000Z</published>
-    <updated>2020-05-21T13:21:03.428Z</updated>
+    <updated>2020-05-21T13:27:35.909Z</updated>
     
     <summary type="html">
     
-      常量、数据类型、变量与类型转换
+      常量、数据类型与变量
     
     </summary>
     
@@ -249,27 +243,6 @@
   </entry>
   
   <entry>
-    <title>初识Markdown</title>
-    <link href="https://www.famkkll.cn/88af5d4e.html"/>
-    <id>https://www.famkkll.cn/88af5d4e.html</id>
-    <published>2018-03-19T07:30:21.000Z</published>
-    <updated>2020-05-19T08:42:51.307Z</updated>
-    
-    <summary type="html">
-    
-      Markdown常用语法纪要
-    
-    </summary>
-    
-    
-      <category term="工具应用" scheme="https://www.famkkll.cn/categories/%E5%B7%A5%E5%85%B7%E5%BA%94%E7%94%A8/"/>
-    
-    
-      <category term="markdown" scheme="https://www.famkkll.cn/tags/markdown/"/>
-    
-  </entry>
-  
-  <entry>
     <title>初识Java</title>
     <link href="https://www.famkkll.cn/3bb54abf.html"/>
     <id>https://www.famkkll.cn/3bb54abf.html</id>
@@ -289,6 +262,27 @@
     
     
       <category term="java" scheme="https://www.famkkll.cn/tags/java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>初识Markdown</title>
+    <link href="https://www.famkkll.cn/88af5d4e.html"/>
+    <id>https://www.famkkll.cn/88af5d4e.html</id>
+    <published>2018-03-19T07:30:21.000Z</published>
+    <updated>2020-05-19T08:42:51.307Z</updated>
+    
+    <summary type="html">
+    
+      Markdown常用语法纪要
+    
+    </summary>
+    
+    
+      <category term="工具应用" scheme="https://www.famkkll.cn/categories/%E5%B7%A5%E5%85%B7%E5%BA%94%E7%94%A8/"/>
+    
+    
+      <category term="markdown" scheme="https://www.famkkll.cn/tags/markdown/"/>
     
   </entry>
   
