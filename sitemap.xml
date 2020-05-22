@@ -51,7 +51,7 @@
   </url>
   
   <url>
-    <loc>https://www.famkkll.cn/collections/design.json</loc>
+    <loc>https://www.famkkll.cn/collections/community.json</loc>
     
     <lastmod>2020-05-19T15:27:35.000Z</lastmod>
     
@@ -65,13 +65,6 @@
   </url>
   
   <url>
-    <loc>https://www.famkkll.cn/collections/community.json</loc>
-    
-    <lastmod>2020-05-19T15:27:35.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.famkkll.cn/collections/docs.json</loc>
     
     <lastmod>2020-05-19T15:27:35.000Z</lastmod>
@@ -79,14 +72,21 @@
   </url>
   
   <url>
-    <loc>https://www.famkkll.cn/collections/serve.json</loc>
+    <loc>https://www.famkkll.cn/collections/school.json</loc>
     
     <lastmod>2020-05-19T15:27:35.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.famkkll.cn/collections/school.json</loc>
+    <loc>https://www.famkkll.cn/collections/design.json</loc>
+    
+    <lastmod>2020-05-19T15:27:35.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.famkkll.cn/collections/serve.json</loc>
     
     <lastmod>2020-05-19T15:27:35.000Z</lastmod>
     
